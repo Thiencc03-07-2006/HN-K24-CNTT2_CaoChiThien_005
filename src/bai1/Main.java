@@ -8,10 +8,10 @@ public class Main {
         //tao list so thuc
         List<Double> ships = new ArrayList<>();
         Scanner sc = new Scanner(System.in);
-        System.out.print("Mời nhập sô đơn: ");
+        System.out.print("Mời nhập số đơn: ");
         int n = Integer.parseInt(sc.nextLine());
         if (n == 0) {
-            System.out.println("Lỗi lượng đơn hàng không hợp lệ");
+            System.out.println("Lỗi số lượng đơn hàng không hợp lệ");
         } else {
             for (int i = 0; i < n; i++) {
                 System.out.println("Mời nhập giá tri đơn thứ " + (i + 1) + ": ");
